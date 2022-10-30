@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section {
+    background-image: url(/icons/cover-1.png);
+    background: no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+
+
+.color-overlay{
+    min-height:100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen (max-width: 576px) {
+    section{
+        width: 100%;
+    }
+}
+
